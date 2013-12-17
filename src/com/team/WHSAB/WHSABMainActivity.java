@@ -1,5 +1,5 @@
 package com.team.WHSAB;
-import com.example.lolol.R;
+import com.team.WHSAB.R;
 
 import android.os.Bundle;
 import android.widget.ImageView;
