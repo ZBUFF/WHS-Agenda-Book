@@ -4,5 +4,7 @@
     <string name="app_name">WHS Agenda Book</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_whsabhomework">HomeworkActivity</string>
+    <string name="title_activity_whsaboptions">OptionsActivity</string>
 
 </resources>

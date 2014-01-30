@@ -22,6 +22,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.team.WHSAB.WHSABHomeworkActivity"
+            android:label="@string/title_activity_whsabhomework" >
+        </activity>
+        <activity
+            android:name="com.team.WHSAB.WHSABOptionsActivity"
+            android:label="@string/title_activity_whsaboptions" >
+        </activity>
     </application>
 
 </manifest>
