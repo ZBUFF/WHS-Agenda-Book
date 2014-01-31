@@ -18,7 +18,7 @@ public class WHSABMainActivity extends Activity {
 		//Let us never forget, thy who bringth warmth
 		//upon our shallow, cold hearts. The doge of truth. The doge
 		//of compassion. Bless.
-		//							- Dogus 69:420:lol
+		//							- Dogus 69:420
 		
 	}
 	
