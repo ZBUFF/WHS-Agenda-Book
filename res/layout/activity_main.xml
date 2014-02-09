@@ -8,4 +8,25 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".WHSABMainActivity" >
 
+    <Button
+        android:id="@+id/HomeworkActivityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="112dp"
+        android:onClick="homeworkActivityButtonClicked"
+        android:text="HomeworkActivity" />
+
+    <Button
+        android:id="@+id/OptionsActivityButton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_toLeftOf="@+id/HomeworkActivityButton"
+        android:onClick="optionsActivityButtonClicked"
+        android:text="OptionsActivity" />
+
 </RelativeLayout>
