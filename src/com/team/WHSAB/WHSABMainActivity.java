@@ -21,6 +21,4 @@ public class WHSABMainActivity extends Activity {
 		//							- Dogus 69:420
 		
 	}
-	
-
 }
