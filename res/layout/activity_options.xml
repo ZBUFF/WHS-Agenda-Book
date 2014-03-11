@@ -72,13 +72,6 @@
         android:layout_marginTop="20dp"
         android:text="G-Block" />
 
-    <EditText
-        android:id="@+id/editText8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/editText6"
-        android:ems="10" />
-
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
@@ -94,130 +87,147 @@
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/textView4"
         android:layout_alignBottom="@+id/textView4"
-        android:layout_alignRight="@+id/editText6"
+        android:layout_alignRight="@+id/GBlock"
         android:layout_marginRight="27dp"
         android:text="Lunch 2" />
 
     <CheckBox
-        android:id="@+id/checkBox1"
+        android:id="@+id/Lunch_1_Day_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView7"
         android:layout_below="@+id/textView4"
-        android:text="Day 1" />
+        android:text="Day 1" 
+        android:onClick="onDayOneLunchOne"/>
+    	
 
     <CheckBox
-        android:id="@+id/checkBox2"
+        android:id="@+id/Lunch_1_Day_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/checkBox1"
-        android:layout_below="@+id/checkBox1"
-        android:text="Day 2" />
+        android:layout_alignRight="@+id/Lunch_1_Day_1"
+        android:layout_below="@+id/Lunch_1_Day_1"
+        android:text="Day 2" 
+        android:onClick="onDayTwoLunchOne"
+        />
 
     <CheckBox
-        android:id="@+id/checkBox3"
+        android:id="@+id/Lunch_1_Day_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView6"
-        android:layout_below="@+id/checkBox2"
-        android:text="Day 3" />
+        android:layout_below="@+id/Lunch_1_Day_2"
+        android:text="Day 3" 
+        android:onClick="onDayThreeLunchOne"/>
 
     <CheckBox
-        android:id="@+id/checkBox4"
+        android:id="@+id/Lunch_1_Day_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView1"
-        android:layout_below="@+id/checkBox3"
-        android:text="Day 4" />
+        android:layout_below="@+id/Lunch_1_Day_3"
+        android:text="Day 4" 
+        android:onClick="onDayFourLunchOne"/>
 
     <CheckBox
-        android:id="@+id/checkBox5"
+        android:id="@+id/Lunch_1_Day_5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/checkBox3"
-        android:layout_below="@+id/checkBox4"
-        android:text="Day 5" />
+        android:layout_alignLeft="@+id/Lunch_1_Day_3"
+        android:layout_below="@+id/Lunch_1_Day_4"
+        android:text="Day 5" 
+        android:onClick="onDayFiveLunchOne"/>
 
     <CheckBox
-        android:id="@+id/checkBox6"
+        android:id="@+id/Lunch_1_Day_6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/checkBox4"
-        android:layout_below="@+id/checkBox5"
-        android:text="Day 6" />
+        android:layout_alignLeft="@+id/Lunch_1_Day_4"
+        android:layout_below="@+id/Lunch_1_Day_5"
+        android:text="Day 6" 
+        android:onClick="onDaySixLunchOne"/>
 
     <CheckBox
-        android:id="@+id/checkBox7"
+        android:id="@+id/Lunch_2_Day_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/checkBox1"
-        android:layout_alignBottom="@+id/checkBox1"
+        android:layout_alignBaseline="@+id/Lunch_1_Day_1"
+        android:layout_alignBottom="@+id/Lunch_1_Day_1"
         android:layout_alignRight="@+id/Lunch"
-        android:text="Day 1" />
+        android:text="Day 1" 
+        android:onClick="onDayOneLunchTwo"/>
 
     <CheckBox
-        android:id="@+id/checkBox8"
+        android:id="@+id/Lunch_2_Day_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/checkBox3"
-        android:layout_alignRight="@+id/checkBox7"
-        android:text="Day 2" />
+        android:layout_above="@+id/Lunch_1_Day_3"
+        android:layout_alignRight="@+id/Lunch_2_Day_1"
+        android:text="Day 2" 
+        android:onClick="onDayTwoLunchTwo"
+        />
 
     <CheckBox
-        android:id="@+id/checkBox9"
+        android:id="@+id/Lunch_2_Day_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/checkBox8"
-        android:layout_below="@+id/checkBox8"
-        android:text="Day 3" />
+        android:layout_alignLeft="@+id/Lunch_2_Day_2"
+        android:layout_below="@+id/Lunch_2_Day_2"
+        android:text="Day 3" 
+        android:onClick="onDayThreeLunchTwo"/>
 
     <CheckBox
-        android:id="@+id/checkBox10"
+        android:id="@+id/Lunch_2_Day_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/checkBox9"
-        android:layout_below="@+id/checkBox9"
-        android:text="Day 4" />
+        android:layout_alignLeft="@+id/Lunch_2_Day_3"
+        android:layout_below="@+id/Lunch_2_Day_3"
+        android:text="Day 4" 
+        android:onClick="onDayFourLunchTwo"/>
 
     <CheckBox
-        android:id="@+id/checkBox11"
+        android:id="@+id/Lunch_2_Day_5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/button1"
-        android:layout_alignLeft="@+id/checkBox10"
-        android:text="Day 5" />
+        android:layout_alignLeft="@+id/Lunch_2_Day_4"
+        android:text="Day 5" 
+        android:onClick="onDayFiveLunchTwo"/>
 
     <CheckBox
-        android:id="@+id/checkBox12"
+        android:id="@+id/Lunch_2_Day_6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/checkBox11"
-        android:layout_below="@+id/checkBox11"
-        android:text="Day 6" />
+        android:layout_alignLeft="@+id/Lunch_2_Day_5"
+        android:layout_below="@+id/Lunch_2_Day_5"
+        android:text="Day 6" 
+        android:onClick="onDaySixLunchTwo"/>
 
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/checkBox6"
+        android:layout_alignTop="@+id/Lunch_1_Day_6"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
-        android:text="Save" />
+        android:text="Save" 
+        android:onClick="onSaveClassesClick"/>
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/ABlock"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/textView1"
         android:layout_marginLeft="20dp"
-        android:layout_toRightOf="@+id/checkBox4"
-        android:ems="10" />
+        android:layout_toRightOf="@+id/Lunch_1_Day_4"
+        android:ems="10" 
+        />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/BBlock"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignLeft="@+id/ABlock"
         android:layout_alignTop="@+id/textView2"
         android:ems="10" >
 
@@ -225,44 +235,44 @@
     </EditText>
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/CBlock"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignLeft="@+id/BBlock"
         android:layout_alignTop="@+id/textView3"
         android:ems="10" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/DBlock"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText3"
+        android:layout_alignLeft="@+id/CBlock"
         android:layout_alignTop="@+id/D_Block"
         android:ems="10" />
 
     <EditText
-        android:id="@+id/editText7"
+        android:id="@+id/EBlock"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText5"
+        android:layout_alignLeft="@+id/FBlock"
         android:layout_alignTop="@+id/textView5"
         android:ems="10" />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/FBlock"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText4"
+        android:layout_alignLeft="@+id/DBlock"
         android:layout_alignTop="@+id/textView6"
         android:ems="10" />
 
     <EditText
-        android:id="@+id/editText6"
+        android:id="@+id/GBlock"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/textView7"
         android:layout_alignBottom="@+id/textView7"
-        android:layout_alignLeft="@+id/editText5"
+        android:layout_alignLeft="@+id/FBlock"
         android:ems="10" />
 
 </RelativeLayout>
